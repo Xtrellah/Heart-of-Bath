@@ -1,0 +1,50 @@
+:root {
+    --blue1: #2f5b8a;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: var(--blue1);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 0% 10% 0% 10%;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+    width: 180px;
+    height: 100%;
+}
+
+#hero {
+    width: 100%;
+}
+
+#hero img {
+    width: 100%;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: row;
+}
