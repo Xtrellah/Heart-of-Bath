@@ -77,3 +77,55 @@ button {
     border: none;
     padding: 10px;
 }
+
+/* FOOTER */
+.footer-banner {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--blue1);
+    color: white;
+    padding: 0px 0px 0px 50px;
+}
+
+.footer-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+}
+
+.footer-section {
+    width: 800px;
+    padding: 0px 50px 0px 25px;
+}
+
+.socials {
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    margin-bottom: 15px;
+    align-content: center;
+}
+
+footer i:hover, footer a:hover {
+    color: grey;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    align-self: center;
+    padding-top: 15px;
+}
