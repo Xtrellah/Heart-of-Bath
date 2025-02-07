@@ -7,6 +7,12 @@ body {
     text-align: center;
 }
 
+.content {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
 /* HEADER */
 header {
     background-color: var(--blue1);
@@ -79,12 +85,6 @@ button {
 }
 
 /* FOOTER */
-.footer-banner {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 25px;
-}
-
 footer {
     display: flex;
     flex-direction: column;
@@ -92,6 +92,12 @@ footer {
     background-color: var(--blue1);
     color: white;
     padding: 0px 0px 0px 50px;
+}
+
+.footer-banner {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
 }
 
 .footer-body {
