@@ -47,3 +47,21 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => console.error('Error loading navbar:', error));
 });
+
+// TARIFFS
+fetch('tariffs.json')
+    .then(response => response.json())
+    .then(data => {
+        const target = document.getElementById('tariffs');
+
+        data.services.forEach(service => {
+            target.innerHTML += `
+        <div>
+          <img src="${service.image}" width="300" alt="${service.title}" />
+          <h4>${service.title}</h4>
+          <p>${service.description}</p>
+        </div>
+      `;
+        });
+    })
+    .catch(error => console.error('Error loading tariffs:', error));

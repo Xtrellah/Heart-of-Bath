@@ -1,0 +1,59 @@
+{
+    "services": [
+        {
+            "title": "Dog Care",
+            "description": "£15 per day for one dog. £20 for two dogs. £25 for three dogs.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Cat Care",
+            "description": "£5 per cat per day.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Small Furry’s, Exotic Birds and Reptiles",
+            "description": "£5 per day for each small furry, exotic bird, or reptile.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Poultry Flock Daily Additional Charge",
+            "description": "£15 per day for a poultry flock.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Horses Stabled Daily Additional Charge",
+            "description": "£25 per day for stabled horses.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Horses Turned Out Daily Additional Charge",
+            "description": "£15 per day for turned-out horses.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Exercising of Horses",
+            "description": "£25 per day for horse exercise.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Grooming of Horses",
+            "description": "£5 per day for horse grooming.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Welcome Home Hamper Package (2 People)",
+            "description": "£30 – Essentials groceries including milk, bread, eggs, bacon, and fresh juice tailored to dietary requirements.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Welcome Home Hamper Package (4 People)",
+            "description": "£50 – Essentials groceries including milk, bread, eggs, bacon, and fresh juice tailored to dietary requirements.",
+            "image": "https://placehold.co/600x400"
+        },
+        {
+            "title": "Cleaning Service",
+            "description": "£20 per hour for cleaning if you would like to return home to a spotlessly clean home.",
+            "image": "https://placehold.co/600x400"
+        }
+    ]
+}
