@@ -56,10 +56,12 @@ fetch('tariffs.json')
 
         data.services.forEach(service => {
             target.innerHTML += `
-        <div>
+        <div class="tariffs">
           <img src="${service.image}" width="300" alt="${service.title}" />
-          <h4>${service.title}</h4>
-          <p>${service.description}</p>
+          <div class="tariffs-text">
+            <h4>${service.title}</h4>
+            <p>${service.description}</p>
+          </div>
         </div>
       `;
         });

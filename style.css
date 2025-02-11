@@ -84,6 +84,24 @@ button {
     padding: 10px;
 }
 
+/* TARIFFS */
+.tariffs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.tariffs:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.tariffs-text {
+    width: 300px;
+}
+
 /* FOOTER */
 footer {
     display: flex;
