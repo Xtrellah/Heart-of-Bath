@@ -13,6 +13,13 @@ body {
     margin: 0 auto;
 }
 
+/* PAGE TITLE */
+.page-title {
+    border-bottom: solid;
+    border-color: var(--blue1);
+    padding: 10px;
+}
+
 /* HEADER */
 header {
     background-color: var(--blue1);
@@ -81,6 +88,15 @@ button {
     background-color: var(--blue1);
     color: white;
     border: none;
+    padding: 10px;
+}
+
+/* SERVICES PAGE */
+.services div {
+    padding: 5px;
+}
+
+.services-bottom {
     padding: 10px;
 }
 
