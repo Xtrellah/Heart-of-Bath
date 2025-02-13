@@ -67,3 +67,21 @@ fetch('tariffs.json')
         });
     })
     .catch(error => console.error('Error loading tariffs:', error));
+
+// GAURDIANS
+fetch('gaurdians.json')
+    .then(response => response.json())
+    .then(data => {
+        const target = document.getElementById('gaurdians-data');
+
+        data.services.forEach(service => {
+            target.innerHTML += `
+    <div class="gaurdians">
+        <img src="${service.image}" width="300" alt="${service.title}" />
+        <h4>${service.title}</h4>
+        <p>${service.description}</p>
+    </div>
+  `;
+        });
+    })
+    .catch(error => console.error('Error loading gaurdians data:', error));

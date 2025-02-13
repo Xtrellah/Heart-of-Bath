@@ -1,0 +1,19 @@
+{
+    "services": [
+        {
+            "title": "Julia",
+            "description": "Dog walker with x amount of years of experience.",
+            "image": "https://placehold.co/400x400"
+        },
+        {
+            "title": "Megan",
+            "description": "Dog sitter with x amount of years of experience.",
+            "image": "https://placehold.co/400x400"
+        },
+        {
+            "title": "Genine",
+            "description": "Dog taxi with x amount of years of experience.",
+            "image": "https://placehold.co/400x400"
+        }
+    ]
+}

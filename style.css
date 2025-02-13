@@ -102,6 +102,18 @@ button {
     padding: 10px;
 }
 
+/* GAURDIANS PAGE */
+#gaurdians-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.gaurdians {
+    width: 400px;
+}
+
 /* SERVICES PAGE */
 .services div {
     padding: 5px;
