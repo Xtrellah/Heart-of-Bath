@@ -85,3 +85,21 @@ fetch('gaurdians.json')
         });
     })
     .catch(error => console.error('Error loading gaurdians data:', error));
+
+// TESTIMONIALS
+fetch('testimonials.json')
+    .then(response => response.json())
+    .then(data => {
+        const target = document.getElementById('testimonials');
+
+        data.testimonials.forEach(testimonials => {
+            target.innerHTML += `
+    <div class="testimonials">
+        <h1>${testimonials.client}</h1>
+        <p>"${testimonials.review}"</p>
+        <p class="testimonials-service">${testimonials.service}</p>
+    </div>
+  `;
+        });
+    })
+    .catch(error => console.error('Error loading testimonials:', error));

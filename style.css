@@ -110,6 +110,24 @@ button {
     padding: 20px;
 }
 
+/* TESTIMONIALS PAGE */
+#testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.testimonials {
+    text-align: start;
+    width: 400px;
+    padding: 20px;
+}
+
+.testimonials-service {
+    font-style: italic;
+}
+
 .gaurdians {
     width: 400px;
 }

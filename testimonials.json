@@ -1,0 +1,49 @@
+{
+    "testimonials": [
+        {
+            "client": "Angelina Lewis",
+            "review": "We have been using Julia’s services regularly for over a year now, and I can't recommend her highly enough. She is always professional and reliable, and she messages with any updates so we always know exactly what’s going on. She really cares about her clients.",
+            "service": "Julia, Dog Walking"
+        },
+        {
+            "client": "Lucinda Garthwaite",
+            "review": "Julia has been walking my dog now for around 1.5 years. She is super reliable, responsive, efficient, and is 100% trusted with keys & passcodes to our home. Julia goes above & beyond to help out. Her steady support is hugely appreciated.",
+            "service": "Julia, Dog Walking"
+        },
+        {
+            "client": "Fay and Ben",
+            "review": "Our family has been working with Megan for a number of years. She walks our dog Otto (who is like a child to us!) every week. She also pet-sits for longer periods when we are travelling. Megan is incredibly reliable, trustworthy, and great at communication. Most importantly, we know that Otto is well taken care of whenever he is with Megan. She is conscientious and incredibly kind and caring. Otto absolutely loves her. I wouldn’t hesitate to have her house sit for us!",
+            "service": "Megan, Dog Walking"
+        },
+        {
+            "client": "Christine Morris",
+            "review": "Genine has now looked after our two dogs on several occasions. To us, our dogs are our babies, and who we leave them with is not a decision we take lightly, so we were delighted when we found Genine. She is so caring and looks after the dogs brilliantly, and they are always so pleased to see her, which is a great sign too.\n\nWe always have happy pups when we return, and not to overlook, an immaculately clean and tidy house! A real treat!\n\nWe cannot recommend Genine highly enough.",
+            "service": "Genine, Dog Sitting"
+        },
+        {
+            "client": "Jo & Alfie",
+            "review": "I can strongly recommend Julia. She has been a key part of our lives for many years as our fabulous dog walker. She is wonderful with animals and is also very reliable & trustworthy.",
+            "service": "Julia, Dog Walking"
+        },
+        {
+            "client": "Denise and Robert",
+            "review": "Julia has looked after our dogs for the last 7 years, and we have complete confidence and trust in her.",
+            "service": "Julia, Dog Walking"
+        },
+        {
+            "client": "Jo Lyons",
+            "review": "I’ve known Julia for X years now (she has access to my home via the keysafe code) and have no hesitation in recommending her to anybody. She is punctual, reliable and trustworthy - and a lovely person to boot!",
+            "service": "Julia, Dog Walking"
+        },
+        {
+            "client": "Mia Tiltman",
+            "review": "Julia is amazing with our dog Koby. Koby is a very excitable boy and Julia handles him so well. Julia comes and collects Koby while both my partner and I are at work. She is incredibly trustworthy and would highly recommend her to anyone needing dog walking/sitting🥰🐾",
+            "service": "Julia, Dog Walking"
+        },
+        {
+            "client": "Gareth Newman",
+            "review": "We’ve been using Julia to regularly walk our dog for many years now. Dealing with her is always easy, she accommodates our changing needs and resolves any issues quickly. Billing is always timely and accurate. It’s all very easy. Julia has a key to let herself in to pickup/drop off our dog. We never had any qualms about this as regard her as totally trustworthy.",
+            "service": "Julia, Dog Walking"
+        }
+    ]
+}
