@@ -103,3 +103,44 @@ fetch('testimonials.json')
         });
     })
     .catch(error => console.error('Error loading testimonials:', error));
+
+// TESTIMONIALS CAROUSEL
+fetch('testimonials.json')
+    .then(response => response.json())
+    .then(data => {
+        const testimonials = data.testimonials;
+        const wrapper = document.getElementById("testimonials-wrapper");
+
+        testimonials.forEach(testimonial => {
+            const div = document.createElement("div");
+            div.classList.add("testimonial");
+            div.innerHTML = `
+                <h3>${testimonial.client}</h3>
+                <p>${testimonial.review}</p>
+                <p>${testimonial.service}</p>
+            `;
+            wrapper.appendChild(div);
+        });
+
+        let index = 0;
+        const totalSlides = Math.ceil(testimonials.length / 3);
+
+        function updateCarousel() {
+            wrapper.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        document.getElementById("button-right").addEventListener("click", () => {
+            if (index < totalSlides - 1) {
+                index++;
+                updateCarousel();
+            }
+        });
+
+        document.getElementById("button-left").addEventListener("click", () => {
+            if (index > 0) {
+                index--;
+                updateCarousel();
+            }
+        });
+    })
+    .catch(error => console.error("Error loading testimonials:", error));

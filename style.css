@@ -61,6 +61,7 @@ nav a {
     text-underline-offset: 2px;
 }
 
+/* HOME PAGE */
 /* HERO SECTION */
 #hero {
     position: relative;
@@ -101,6 +102,46 @@ button {
     border: none;
     padding: 10px;
 }
+
+/* TESTIMONIALS CAROUSEL */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    max-width: 1050px;
+}
+
+.testimonials-carousel {
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.testimonial-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 20px;
+}
+
+.testimonial {
+    flex: 0 0 280px;
+    padding: 15px;
+    text-align: center;
+}
+
+.carousel-button {
+    color: black;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.carousel-button:hover {
+    color: #555;
+}
+
 
 /* GAURDIANS PAGE */
 #gaurdians-data {
