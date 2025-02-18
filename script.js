@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // TARIFFS
-fetch('tariffs.json')
+fetch('Json/tariffs.json')
     .then(response => response.json())
     .then(data => {
         const target = document.getElementById('tariffs');
@@ -69,7 +69,7 @@ fetch('tariffs.json')
     .catch(error => console.error('Error loading tariffs:', error));
 
 // GAURDIANS
-fetch('gaurdians.json')
+fetch('Json/gaurdians.json')
     .then(response => response.json())
     .then(data => {
         const target = document.getElementById('gaurdians-data');
@@ -87,7 +87,7 @@ fetch('gaurdians.json')
     .catch(error => console.error('Error loading gaurdians data:', error));
 
 // TESTIMONIALS
-fetch('testimonials.json')
+fetch('Json/testimonials.json')
     .then(response => response.json())
     .then(data => {
         const target = document.getElementById('testimonials');
@@ -105,7 +105,7 @@ fetch('testimonials.json')
     .catch(error => console.error('Error loading testimonials:', error));
 
 // TESTIMONIALS CAROUSEL
-fetch('testimonials.json')
+fetch('Json/testimonials.json')
     .then(response => response.json())
     .then(data => {
         const testimonials = data.testimonials;
