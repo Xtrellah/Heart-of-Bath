@@ -44,17 +44,40 @@
             <div id="tariffs"></div>
         </section>
 
-        <section>
+        <hr>
+
+        <section class="quote-form">
             <h1>Get a Quote</h1>
             <p>Fill out this form and we will get back to you as soon as possible!</p>
             <form action="quote.php" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
+                <span>Contact Details</span>
+                <div>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
 
-                <label><input type="checkbox" name="services[]" value="Dog Care"> Dog Care</label>
-                <label><input type="checkbox" name="services[]" value="Cat Care"> Cat Care</label>
-                <label><input type="checkbox" name="services[]" value="Horse Care"> Horse Care</label>
+                <span>Dates</span>
+                <div class="form-date">
+                    <input type="date" id="date" name="date[]" value="" min="2025-03-1" max="2026-03-1" />
+                    <input type="date" id="date" name="date[]" value="" min="2025-03-30" max="2026-03-30" />
+                </div>
 
+                <span>Services</span>
+                <div class="form-services">
+                    <div>
+                        <label><input type="checkbox" name="services[]" value="Dog Care"> Dog Care</label>
+                        <label><input type="checkbox" name="services[]" value="Small and Exotic Animal Care"> Small and Exotic Animal Care</label>
+                        <label><input type="checkbox" name="services[]" value="Horses Care"> Horses Care</label>
+                        <label><input type="checkbox" name="services[]" value="Welcome Home Hamper"> Welcome Home Hamper</label>
+                    </div>
+                    <div>
+                        <label><input type="checkbox" name="services[]" value="Cat Care"> Cat Care</label>
+                        <label><input type="checkbox" name="services[]" value="Poultry Care"> Poultry Care</label>
+                        <label><input type="checkbox" name="services[]" value="Cleaning Service"> Cleaning Service</label>
+                    </div>
+                </div>
+
+                <span>Tell us More</span>
                 <textarea name="message" placeholder="Your Message"></textarea>
 
                 <button class="form-button" type="submit">Submit</button>
