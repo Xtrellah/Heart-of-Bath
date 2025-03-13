@@ -116,21 +116,21 @@ fetch('Json/testimonials.json')
             div.classList.add("testimonial");
             div.innerHTML = `
                 <h3>${testimonial.client}</h3>
-                <p>${testimonial.review}</p>
+                <p>"${testimonial.review}"</p>
                 <p>${testimonial.service}</p>
             `;
             wrapper.appendChild(div);
         });
 
         let index = 0;
-        const totalSlides = Math.ceil(testimonials.length / 3);
+        const totalSlides = Math.ceil(testimonials.length /6);
 
         function updateCarousel() {
-            wrapper.style.transform = `translateX(-${index * 100}%)`;
+            wrapper.style.transform = `translateX(-${index *27}%)`;
         }
 
         document.getElementById("button-right").addEventListener("click", () => {
-            if (index < totalSlides - 1) {
+            if (index < totalSlides + 4) {
                 index++;
                 updateCarousel();
             }

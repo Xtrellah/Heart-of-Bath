@@ -22,6 +22,7 @@ hr {
     border-style: solid;
     border-width: 2px;
     color: var(--blue1);
+    margin: 50px 0px 50px 0px;
 }
 
 button {
@@ -29,6 +30,7 @@ button {
     color: white;
     border: none;
     padding: 10px;
+    cursor: pointer;
 }
 
 .page-title {
@@ -81,19 +83,21 @@ nav a {
 /* HOME PAGE */
 /* HERO SECTION */
 #hero {
-    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
 
 #hero div {
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.501);
-    padding: 60px;
+    width: 50%;
 }
 
 #hero img {
-    width: 100%;
+    width: 50%;
+}
+
+.hero-content {
+    text-align: left;
 }
 
 /* SERVICES SECTION */
