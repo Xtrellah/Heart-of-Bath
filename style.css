@@ -6,16 +6,15 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .content {
     width: 75%;
     display: block;
     margin: 0 auto;
-}
-
-section {
-    padding: 0px 0px 25px 0px;
 }
 
 hr {
@@ -25,18 +24,17 @@ hr {
     margin: 50px 0px 50px 0px;
 }
 
+.spacer {
+    border-style: none;
+    margin: 0px 0px 50px 0px;
+}
+
 button {
     background-color: var(--blue1);
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
-}
-
-.page-title {
-    border-bottom: solid;
-    border-color: var(--blue1);
-    padding: 10px;
 }
 
 /* HEADER */
@@ -130,7 +128,6 @@ nav a {
 .testimonials-carousel {
     display: flex;
     overflow: hidden;
-    
 }
 
 .testimonial-wrapper {
